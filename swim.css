@@ -4,32 +4,33 @@ body {
     font-family: sans-serif;
     margin: 20px;
     background-color: #f4f4f4;
-    color: #333;
+    color: #426b69;
     line-height: 1.6;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
-
 header {
-    background-color: #426b69; /* A nice green */
-    color: white;
+    color: #426b69;
     padding: 1em 0;
     text-align: center;
     margin-bottom: 20px;
     border-radius: 5px;
 }
 header nav ul {
-    list-style: none; /* Remove bullet points */
+    list-style: none;
     padding: 0;
     margin: 0;
-    text-align: center; /* Optional: Center the navigation items */
+    text-align: center;
 }
 
 header nav ul li {
-    display: inline-block; /* Or display: inline; */
-    margin-right: 15px; /* Add spacing between items */
+    display: inline-block; 
+    margin-right: 15px; 
 }
 
 header nav ul li:last-child {
-    margin-right: 0; /* Remove margin from the last item */
+    margin-right: 0;
 }
 
 header h1 {
@@ -37,8 +38,9 @@ header h1 {
     font-size: 2.5em;
 }
 
+
 nav a {
-    color: white;
+    color: #426b69;
     text-decoration: none;
     padding: 0.8em 1.5em;
     margin: 0 0.5em;
@@ -49,34 +51,35 @@ nav a:hover {
     color: rgb(181, 179, 179);
 }
 
-.circle {
-    background-color: #ddd;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin: 20px auto;
-    /* You might want to position this more specifically later */
-}
 
-#basics {
-    background-color: white;
+.certifications {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box;
 }
 
-#basics h2 {
-    color: #5cb85c;
+/* #cert-embed {
+    width: 100%;
+    height: ;
+} */
+
+
+.photo-grid2 {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Fewer, larger columns */
+    gap: 20px; /* Add space between the images */
+    align-items: center; /* Center the grid container on the page */
 }
 
-#headshot {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: block; /* To remove extra space below the image */
-    margin: 20px auto; /* Center the image */
+.photo-grid2 img {
+    width: 100%; /* Set a fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the whole image fits inside the cell */
+    border-radius: 8px; /* Optional: Rounded corners */
+    display: block; /* Ensures no inline spacing affects centering */
+    margin: 0 auto; /* Centers images horizontally */
 }
-
-/* You can add more specific styles for other elements as needed */
