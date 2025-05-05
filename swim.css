@@ -98,12 +98,13 @@ nav a:hover {
       object-fit: contain;
       border-radius: 6px;
     }
-    .photo-grid2 img:nth-child(even) {
+    .photo-grid2 img:nth-child(n+5) {
         display: none;
       }
     nav {
     white-space: nowrap; /* Prevent wrapping */
     overflow-x: auto;    /* Allow scrolling if needed */
+    gap:10px
     }
     /* .cert-embed {
         width: 50%
