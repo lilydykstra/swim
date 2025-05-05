@@ -105,13 +105,12 @@ nav a:hover {
     white-space: nowrap; /* Prevent wrapping */
     overflow-x: auto;    /* Allow scrolling if needed */
     }
-    .cert-embed {
-        width: 100px;
-        height: 140px;
+    /* .cert-embed {
+        width: 50%
       }
     
-      .certifications {
-        gap: 10px;
-        padding: 10px;
-      }
+    .certifications {
+    gap: 10px;
+    padding: 10px;
+      } */
   }
