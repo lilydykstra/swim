@@ -1,0 +1,82 @@
+/* Basic CSS for personal website */
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #426b69; /* A nice green */
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+header nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Optional: Center the navigation items */
+}
+
+header nav ul li {
+    display: inline-block; /* Or display: inline; */
+    margin-right: 15px; /* Add spacing between items */
+}
+
+header nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.8em 1.5em;
+    margin: 0 0.5em;
+    border-radius: 3px;
+}
+
+nav a:hover {
+    background-color: #3b7875;
+}
+
+.circle {
+    background-color: #ddd;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px auto;
+    /* You might want to position this more specifically later */
+}
+
+#basics {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#basics h2 {
+    color: #5cb85c;
+}
+
+#headshot {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: block; /* To remove extra space below the image */
+    margin: 20px auto; /* Center the image */
+}
+
+/* You can add more specific styles for other elements as needed */
