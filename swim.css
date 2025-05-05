@@ -83,3 +83,17 @@ nav a:hover {
     display: block; /* Ensures no inline spacing affects centering */
     margin: 0 auto; /* Centers images horizontally */
 }
+
+@media (max-width: 600px) {
+    .photo-grid2 {
+      grid-template-columns: 1fr; /* Stack images in a single column */
+      gap: 10px;                  /* Slightly smaller gap on small screens */
+      padding: 10px;              /* Optional: add some padding */
+    }
+  
+    .photo-grid2 img {
+      width: 90%;      /* Slightly smaller than full width for padding/margin */
+      max-width: 300px; /* Optional: cap image size */
+      margin: 0 auto;   /* Center the image */
+    }
+  }
