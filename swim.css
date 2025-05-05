@@ -101,11 +101,15 @@ nav a:hover {
     .photo-grid2 img:nth-child(n+5) {
         display: none;
       }
-    nav {
-    white-space: nowrap; /* Prevent wrapping */
-    overflow-x: auto;    /* Allow scrolling if needed */
-    gap:10px
-    }
+      nav {
+        gap: 5px;
+        font-size: 13px;
+        padding: 5px;
+      }
+    
+      nav a {
+        padding: 3px;
+      }
     /* .cert-embed {
         width: 50%
       }
